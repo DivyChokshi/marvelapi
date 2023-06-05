@@ -19,7 +19,7 @@ function removeElements() {
 
 input.addEventListener("keyup", async () => {
   removeElements();
-  if (input.value.length < 4) {
+  if (input.value.length < 2) {
     return false;
   }
 
