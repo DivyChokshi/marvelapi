@@ -21,11 +21,15 @@
     border-radius: 1em;
   }
   .input-container {
-    display: grid;
-    grid-template-columns: 9fr 3fr;
+    display: flex;
+    flex-wrap: wrap;
+    /* display: grid;
+    grid-template-columns: 3fr 1fr; */
+    justify-content: space-evenly;
     gap: 1em;
   }
   input {
+    width: 18rem;
     padding: 1em 0.5em;
     background-color: #3a3939;
     color: #ffffff;
@@ -34,6 +38,7 @@
     outline: none;
   }
   button {
+    width: 6rem;
     outline: none;
     border: none;
     background-color: #e01a38;
